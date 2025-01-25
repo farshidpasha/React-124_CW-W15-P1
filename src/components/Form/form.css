@@ -1,0 +1,33 @@
+.form {
+  background-color: #a7a6aa;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  grid-row: 2/2 span;
+
+  .title {
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .input {
+    width: calc(100% - 32px);
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    font-size: 18px;
+  }
+
+  .button {
+    background-color: #909195;
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding: 4px;
+    width: max-content;
+  }
+}
