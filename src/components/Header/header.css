@@ -1,0 +1,24 @@
+.header {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  .header__logo {
+    width: max-content;
+    background-color: #a7a6aa;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .header__head-line {
+    font-size: x-large;
+    border: 8px solid #a7a6aa;
+    border-radius: 4px;
+    color: #a7a6aa;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: 600;
+  }
+}
