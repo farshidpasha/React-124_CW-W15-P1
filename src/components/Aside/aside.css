@@ -1,0 +1,42 @@
+.aside {
+  border: 8px solid #a7a6aa;
+  border-radius: 4px;
+  grid-column: 1/1 span;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  align-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  color: #a7a6aa;
+  font-size: x-large;
+  font-weight: bold;
+  .text {
+    grid-column: 1/2;
+  }
+  .offer {
+    background-color: #a7a6aa;
+    color: white;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/-1;
+    .offer-text {
+      color: white;
+      transform: rotate(-45deg);
+    }
+  }
+
+  .list {
+    margin-left: 32px;
+    .list__items {
+      text-transform: uppercase;
+      padding: 4px 0;
+    }
+    .list__items::marker {
+      font-size: xx-large;
+    }
+  }
+}
