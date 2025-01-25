@@ -1,0 +1,41 @@
+.social {
+  grid-column: 1/2;
+  grid-row: 3/-1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .social__container {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social__icon {
+    color: #a7a6aa;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1);
+  }
+  .social__icon:hover {
+    transform: scale(1.5);
+  }
+  .social__icon.telegram:hover {
+    color: #31a9df;
+  }
+
+  .social__icon.instagram:hover {
+    color: #fd1d1d;
+  }
+
+  .social__icon.youtube:hover {
+    color: #fd1d1d;
+  }
+
+  .social__icon.github:hover {
+    color: #000;
+  }
+}
